@@ -4,19 +4,19 @@
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
 A:
--Identify units that contain naked twins(2 boxes that have identical sets of only 2 possible candidates).
--The constraint that the naked pair has is that the other boxes cannot have those values in that unit.
--Those values should be removed from the peers.
--After the process of elimination the peers will have less values or maybe just one and the solves the sudoko.
--The constrain propagation solves the sudoko because the strategies(naked twins,eliminate and only choice) are used together.
+*Identify units that contain naked twins(2 boxes that have identical sets of only 2 possible candidates).
+*The constraint that the naked pair has is that the other boxes cannot have those values in that unit.
+*Those values should be removed from the peers.
+*After the process of elimination the peers will have less values or maybe just one and the solves the sudoko.
+*The constrain propagation solves the sudoko because the strategies(naked twins,eliminate and only choice) are used together.
 
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
 A:
--Create 2 diagonal units and identify the boxes for those units.
--The strategies(naked twins,eliminate and only choice) are used in those columns in order to solve the sudoko.
--The algorithm doesn't need to change because the location of the unitsis not relevant.
+*Create 2 diagonal units and identify the boxes for those units.
+*The strategies(naked twins,eliminate and only choice) are used in those columns in order to solve the sudoko.
+*The algorithm doesn't need to change because the location of the unitsis not relevant.
 
 ### Install
 
